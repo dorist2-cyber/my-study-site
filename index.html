@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>我的学习网站</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f8;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .card {
+            background-color: white;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+        }
+
+        button {
+            padding: 10px 15px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>📚 我的学习网站</h1>
+    <p>每天进步一点点</p>
+</header>
+
+<nav>
+    <a href="#html">HTML</a>
+    <a href="#css">CSS</a>
+    <a href="#js">JavaScript</a>
+</nav>
+
+<div class="container">
+    <div class="card" id="html">
+        <h2>HTML 学习</h2>
+        <p>HTML 用来搭建网页结构。</p>
+        <button onclick="alert('HTML 是网页的骨架')">点击学习</button>
+    </div>
+
+    <div class="card" id="css">
+        <h2>CSS 学习</h2>
+        <p>CSS 用来美化网页。</p>
+        <button onclick="alert('CSS 让网页更好看')">点击学习</button>
+    </div>
+
+    <div class="card" id="js">
+        <h2>JavaScript 学习</h2>
+        <p>JavaScript 让网页动起来。</p>
+        <button onclick="alert('JavaScript 让网页有交互')">点击学习</button>
+    </div>
+</div>
+
+<footer>
+    <p>© 2025 我的学习网站</p>
+</footer>
+
+</body>
+</html>
